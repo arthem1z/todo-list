@@ -11,14 +11,13 @@ h1{
 #todo-input-container{
     display: grid;
     grid-template-columns: 1fr max-content;
-    margin: 4vh 0;
 }
 #todo-input{
     max-width: 600px;
     font-size: 2rem;
     padding: 10px;
     border-radius: 15px;
-    border: black solid 3px;
+    border: none;
     margin: 10px;
 }
 #add-btn{
@@ -35,16 +34,11 @@ h1{
 #add-btn:hover{
     box-shadow: -5px 5px 5px rgb(143, 143, 143);
 }
-#todo-list{
-    padding: 0 20px;
+#todo-list-container{
+    padding: 0 10px;
     border-radius: 30px;
     border: black solid 4px;
     margin: 1vh;
-}
-#todo-list div{
-    font-size: 2rem;
-    text-align: center;
-    padding: 15px;
 }
 .todo-item{
     display: grid;
